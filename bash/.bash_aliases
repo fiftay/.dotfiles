@@ -1,1 +1,6 @@
-alias la='ls -la'
+alias ..='cd ..'
+alias gs='git status'
+alias l.='ls -A | grep -E "^\."'
+alias la='ls -A'
+alias ll='ls -l'
+alias lla='ls -Al'
