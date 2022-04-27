@@ -1,0 +1,20 @@
+" general
+set nocompatible 
+set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
+set nowrap
+filetype plugin indent on
+syntax on
+set wildmenu
+set number
+set relativenumber
+
+" mappings
+let mapleader = ','
+inoremap jk <Esc>
+nnoremap <Leader>r :source $MYVIMRC<CR>
+nnoremap <Leader>v :e $MYVIMRC<CR>
+nnoremap <Leader>w <C-w>w
+nnoremap <Up> <Nop>
+nnoremap <Down> <Nop>
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
