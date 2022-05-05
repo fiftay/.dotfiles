@@ -10,9 +10,12 @@
 | :reg | Show all registers |
 | :tabnew | Create new tab |
 | :ter | Open terminal |
+| :h autocmd-events-abc | List of editor events |
+| :h function-list | List of built-in functions |
+| :h internal-variables | Information about scope of variables |
 | :h vim-script-info | Vimscript help |
 | _ | Goto first non-whitespace character |
-| '' | Goto postion before last jump |
+| '' | Goto position before last jump |
 | '< | Goto last selection |
 | [[ | Goto previous opening curly brace |
 | [] | Goto previous closing curly brace |
@@ -24,9 +27,12 @@
 | gg | Goto first line |
 | gi | Goto last insert mode position |
 | cc  | Clear line and enter insert mode |
+| q: | Show command history |
+| x | Delete characters forward |
 | Shift + c | Delete till end of line |
 | Shift + g | Goto last line |
 | Shift + s | Clear line and enter insert mode |
+| Shift + x | Delete characters backwards |
 
 ## Visual Mode
 | Command | Description |
