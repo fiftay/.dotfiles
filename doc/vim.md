@@ -13,6 +13,7 @@
 | :h autocmd-events-abc | List of editor events |
 | :h function-list | List of built-in functions |
 | :h internal-variables | Information about scope of variables |
+| :h rtp | Show runtime directories |
 | :h vim-script-info | Vimscript help |
 | _ | Goto first non-whitespace character |
 | '' | Goto position before last jump |
@@ -31,8 +32,13 @@
 | x | Delete characters forward |
 | Shift + c | Delete till end of line |
 | Shift + g | Goto last line |
+| Shift + h | Move cursor to top |
+| Shift + l | Move cursor to bottom |
+| Shift + m | Move cursor to middle |
 | Shift + s | Clear line and enter insert mode |
 | Shift + x | Delete characters backwards |
+| (Strg + w) + s  | Duplicate window vertical |
+| (Strg + w) + v | Duplicate window horizontal |
 
 ## Visual Mode
 | Command | Description |
