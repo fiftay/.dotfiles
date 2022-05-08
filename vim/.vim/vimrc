@@ -1,20 +1,43 @@
 " general
-set nocompatible 
+set nocompatible
+set termguicolors
 set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 set nowrap
 filetype plugin indent on
 syntax on
+set noswapfile
+set hidden
 set wildmenu
 set number
 set relativenumber
+set incsearch
+set scrolloff=5
+
+set ignorecase smartcase
+
+set completeopt=menuone,longest
+
+set cursorline
+:hi CursorLine cterm=NONE ctermbg=0
+:hi CursorLineNr cterm=NONE ctermbg=0
 
 " mappings
 let mapleader = ','
 inoremap jk <Esc>
+inoremap <Leader>c <C-n><C-p>
+nnoremap <Leader>f :find
 nnoremap <Leader>r :source $MYVIMRC<CR>
+nnoremap <Leader>t :bel :ter<CR>
 nnoremap <Leader>v :e $MYVIMRC<CR>
 nnoremap <Leader>w <C-w>w
 nnoremap <Up> <Nop>
 nnoremap <Down> <Nop>
 nnoremap <Left> <Nop>
 nnoremap <Right> <Nop>
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <C-t> :tabnew<CR>
+nnoremap <C-n> :bel :vnew<CR>
