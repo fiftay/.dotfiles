@@ -28,6 +28,7 @@ inoremap <Leader>c <C-n><C-p>
 nnoremap <Leader>f :find
 nnoremap <Leader>r :source $MYVIMRC<CR>
 nnoremap <Leader>t :bel :ter<CR>
+nnoremap <Leader>tr :bel :vert :ter<CR>
 nnoremap <Leader>v :e $MYVIMRC<CR>
 nnoremap <Leader>w <C-w>w
 nnoremap <Up> <Nop>
