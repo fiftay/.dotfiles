@@ -13,6 +13,8 @@
 | :h autocmd-events-abc | List of editor events |
 | :h function-list | List of built-in functions |
 | :h internal-variables | Information about scope of variables |
+| :h key-notation | List of key names |
+| :h navigation | Information about cursor movements |
 | :h rtp | Show runtime directories |
 | :h vim-script-info | Vimscript help |
 | _ | Goto first non-whitespace character |
@@ -30,13 +32,21 @@
 | cc  | Clear line and enter insert mode |
 | q: | Show command history |
 | x | Delete characters forward |
+| zb | Move line to bottom |
+| zt | Move line to top |
+| zz | Move line to middle |
 | Shift + c | Delete till end of line |
 | Shift + g | Goto last line |
 | Shift + h | Move cursor to top |
+| Shift + k | Open help |
 | Shift + l | Move cursor to bottom |
 | Shift + m | Move cursor to middle |
 | Shift + s | Clear line and enter insert mode |
 | Shift + x | Delete characters backwards |
+| Ctrl + a | Increment number |
+| Ctrl + b | Goto previous page |
+| Ctrl + f | Goto next page |
+| Ctrl + x | Decrement number |
 | (Strg + w) + s  | Duplicate window vertical |
 | (Strg + w) + v | Duplicate window horizontal |
 
@@ -49,3 +59,11 @@
 | i] or i[ | Select block inside square brackets |
 | a} or a{ or aB | Select block with curly braces |
 | i} or i{ or iB | Select block inside curly braces |
+
+## Terminal
+| Command | Description |
+|---------|-------------|
+| (Strg + w) + (Shift + n) | Switch to normal mode |
+| i | Switch to insert mode |
+
+
