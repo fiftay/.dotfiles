@@ -30,6 +30,7 @@
 | gg | Goto first line |
 | gi | Goto last insert mode position |
 | cc  | Clear line and enter insert mode |
+| s | Delete character and enter insert mode |
 | q: | Show command history |
 | x | Delete characters forward |
 | zb | Move line to bottom |
@@ -38,6 +39,7 @@
 | Shift + c | Delete till end of line |
 | Shift + g | Goto last line |
 | Shift + h | Move cursor to top |
+| Shift + j | Join lines |
 | Shift + k | Open help |
 | Shift + l | Move cursor to bottom |
 | Shift + m | Move cursor to middle |
