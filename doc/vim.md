@@ -36,19 +36,22 @@
 | zb | Move line to bottom |
 | zt | Move line to top |
 | zz | Move line to middle |
-| Shift + c | Delete till end of line |
+| Shift + c | Delete till end of line and enter insert mode |
+| Shift + d | Delete till end of line |
 | Shift + g | Goto last line |
 | Shift + h | Move cursor to top |
 | Shift + j | Join lines |
 | Shift + k | Open help |
 | Shift + l | Move cursor to bottom |
 | Shift + m | Move cursor to middle |
+| Shift + r | Enter replace mode |
 | Shift + s | Clear line and enter insert mode |
 | Shift + x | Delete characters backwards |
 | Ctrl + a | Increment number |
 | Ctrl + b | Goto previous page |
 | Ctrl + f | Goto next page |
 | Ctrl + x | Decrement number |
+| (Strg + w) + c | Close this window |
 | (Strg + w) + s  | Duplicate window vertical |
 | (Strg + w) + v | Duplicate window horizontal |
 
@@ -67,5 +70,3 @@
 |---------|-------------|
 | (Strg + w) + (Shift + n) | Switch to normal mode |
 | i | Switch to insert mode |
-
-
