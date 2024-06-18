@@ -1,0 +1,13 @@
+{
+    "component harness": {
+        "prefix": "a-ch",
+        "body": [
+            "import { ComponentHarness } from '@angular/cdk/testing';",
+            "",
+            "export class ${1:name}Harness extends ComponentHarness {",
+            "\tstatic hostSelector = '${2:selector}';",
+            "\t$3",
+            "}"
+        ]
+    }
+}

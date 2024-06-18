@@ -1,0 +1,10 @@
+{
+    "return table": {
+        "prefix": "l-rt",
+        "body": [
+            "return {",
+            "\t$1",
+            "}"
+        ]
+    }
+}

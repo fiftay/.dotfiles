@@ -1,0 +1,8 @@
+{
+    "import": {
+        "prefix": "t-im",
+        "body": [
+            "import {${2:name}} from '${1:file}';$3"
+        ]
+    }
+}
