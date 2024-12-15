@@ -12,6 +12,48 @@
             "after": ["<esc>"]
         }
     ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "<leader>"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["<leader>", ","],
+            "commands": ["workbench.action.showAllEditorsByMostRecentlyUsed"]
+        },
+        {
+            "before": ["<tab>"],
+            "commands": ["workbench.action.nextEditorInGroup"]
+        },
+        {
+            "before": ["<s-tab>"],
+            "commands": ["workbench.action.previousEditorInGroup"]
+        },
+        {
+            "before": ["<leader>", "v"],
+            "commands": [":vsplit"]
+        },
+        {
+            "before": ["<leader>", "s"],
+            "commands": [":split"]
+        },
+        {
+            "before": ["<ctrl+h>"],
+            "commands": ["workbench.action.navigateLeft"]
+        },
+        {
+            "before": ["<ctrl+j>"],
+            "commands": ["workbench.action.navigateDown"]
+        },
+        {
+            "before": ["<ctrl+k>"],
+            "commands": ["workbench.action.navigateUp"]
+        },
+        {
+            "before": ["<ctrl+l>"],
+            "commands": ["workbench.action.navigateRight"]
+        }
+    ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": ["j", "k"],

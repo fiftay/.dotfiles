@@ -8,5 +8,15 @@
         "key": "ctrl+k",
         "command": "workbench.action.quickOpenSelectPrevious",
         "when": "inQuickOpen"
+    },
+    {
+        "key": "space space",
+        "command": "workbench.action.quickOpen",
+        "when": "!inputFocus"
+    },
+    {
+        "key": "space ,",
+        "command": "workbench.action.showAllEditorsByMostRecentlyUsed",
+        "when": "!inputFocus"
     }
 ]
