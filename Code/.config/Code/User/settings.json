@@ -6,6 +6,18 @@
         { "column": 120, "color": "#D08442"}
     ],
     "telemetry.telemetryLevel": "off",
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "k"],
+            "after": ["<esc>"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "k"],
+            "after": ["<esc>"]
+        }
+    ],
     "window.menuBarVisibility": "toggle",
     "workbench.activityBar.location": "hidden",
     "workbench.colorTheme": "Monokai Dimmed",
