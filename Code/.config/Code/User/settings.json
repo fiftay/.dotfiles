@@ -6,6 +6,7 @@
         { "column": 120, "color": "#D08442"}
     ],
     "telemetry.telemetryLevel": "off",
+    "vim.leader": "<space>",
     "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": ["j", "k"],
