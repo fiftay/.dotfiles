@@ -16,6 +16,14 @@
         {
             "before": ["j", "k"],
             "after": ["<esc>"]
+        },
+        {
+            "before": ["<s-j>"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        },
+        {
+            "before": ["<s-k>"],
+            "commands": ["editor.action.moveLinesUpAction"]
         }
     ],
     "window.menuBarVisibility": "toggle",
